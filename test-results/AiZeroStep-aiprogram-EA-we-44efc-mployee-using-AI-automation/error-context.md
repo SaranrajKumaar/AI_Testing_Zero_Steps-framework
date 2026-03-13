@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - heading "Welcome back" [level=1] [ref=e8]
+        - paragraph [ref=e9]: Sign in to EA Employee App
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: User Name
+          - generic [ref=e14]:
+            - img
+            - textbox "User Name" [ref=e15]:
+              - /placeholder: Enter your username
+              - text: admin
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Password
+            - link "Forgot password?" [ref=e19] [cursor=pointer]:
+              - /url: /Account/ForgotPassword
+          - generic [ref=e20]:
+            - img
+            - textbox "Password" [ref=e21]:
+              - /placeholder: Enter your password
+              - text: password
+        - generic [ref=e22]:
+          - checkbox "Keep me signed in" [checked] [active] [ref=e23] [cursor=pointer]
+          - generic [ref=e24] [cursor=pointer]: Keep me signed in
+        - button "Sign In" [ref=e25] [cursor=pointer]
+      - generic [ref=e26]:
+        - generic [ref=e27]: or
+        - text: Don't have an account?
+        - link "Create one" [ref=e28] [cursor=pointer]:
+          - /url: /Account/Register
+    - link "← Back to Home" [ref=e29] [cursor=pointer]:
+      - /url: /
+  - link "Web hosting by Somee.com" [ref=e31] [cursor=pointer]:
+    - /url: http://somee.com
+  - generic [ref=e34]:
+    - link "Hosted Windows Virtual Server. 2.5GHz CPU, 2GB RAM, 60GB SSD. Try it now for $1!" [ref=e36] [cursor=pointer]:
+      - /url: http://somee.com/VirtualServer.aspx
+    - link "Web hosting by Somee.com" [ref=e38] [cursor=pointer]:
+      - /url: http://somee.com
+```
